@@ -1,16 +1,16 @@
 
 # 🔥Quick start (for masters):
 
-<p></p>
+<br></br>
 
-# Set SDK to 35
+## Set SDK to 35
 
 ## 1. Download SDK35 files:
 
-Download `build-tools-35.0.0-fixed.tar.xz` and `platforms-35-fixed.tar.xz` 
+- Download `build-tools-35.0.0-fixed.tar.xz` and `platforms-35-fixed.tar.xz` 
 from [here](https://github.com/kkgit2008/AndroIDE/releases/tag/SDK)
 
-<p></p>
+
 
 ## 2. Copy these command lines and paste in terminal of AndroIDE:
 ```
@@ -42,7 +42,7 @@ cp -f ~/android-sdk/SDK35/aapt2_35.0.0/aapt2 ~/.androidide/
 ```
 
 
-<p></p>
+
 
 
 # Set SDK back:
@@ -53,7 +53,7 @@ cp -f ~/android-sdk/SDK35/aapt2_34.0.4/aapt2 ~/.androidide/
 ```
 
 
-<p></p>
+
 
 
 # Set SDK to 35 again (and again):
@@ -65,13 +65,14 @@ cp -f ~/android-sdk/SDK35/aapt2_35.0.0/aapt2 ~/.androidide/
 
 
 
-<p></p>
+<br></br>
+<br></br>
+<br></br>
+
 
 # 🔥Details (for beginners):
 
-<p></p>
-<p></p>
-<p></p>
+<br></br>
 
 
 # How to Compile an APK in AndroidIDE Using SDK 35 (35.0.0)
