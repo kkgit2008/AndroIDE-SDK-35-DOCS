@@ -1,7 +1,7 @@
 
-🔥Quick start (for masters):
+# 🔥Quick start (for masters):
 
-
+<p></p>
 
 # Set SDK to 35
 
@@ -67,7 +67,7 @@ cp -f ~/android-sdk/SDK35/aapt2_35.0.0/aapt2 ~/.androidide/
 
 <p></p>
 
-🔥Details (for beginners):
+# 🔥Details (for beginners):
 
 <p></p>
 <p></p>
