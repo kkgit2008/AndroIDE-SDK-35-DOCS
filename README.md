@@ -10,7 +10,7 @@
 - Download `build-tools-35.0.0-fixed.tar.xz` and `platforms-35-fixed.tar.xz` 
 from [here](https://github.com/kkgit2008/AndroIDE/releases/tag/SDK)
 
-<br></br>
+
 
 ## 2. Copy these command lines and paste in terminal of AndroIDE:
 ```
@@ -42,7 +42,7 @@ cp -f ~/android-sdk/SDK35/aapt2_35.0.0/aapt2 ~/.androidide/
 ```
 
 
-<br></br>
+
 
 
 # Set SDK back:
@@ -53,7 +53,7 @@ cp -f ~/android-sdk/SDK35/aapt2_34.0.4/aapt2 ~/.androidide/
 ```
 
 
-<br></br>
+
 
 
 # Set SDK to 35 again (and again):
