@@ -3,11 +3,11 @@
 
 <p></p>
 
-# Set SDK to 35
+## Set SDK to 35
 
- 1. Download SDK35 files:
+- 1. Download SDK35 files:
 
-- Download `build-tools-35.0.0-fixed.tar.xz` and `platforms-35-fixed.tar.xz` 
+Download `build-tools-35.0.0-fixed.tar.xz` and `platforms-35-fixed.tar.xz` 
 from [here](https://github.com/kkgit2008/AndroIDE/releases/tag/SDK)
 
 <p></p>
