@@ -1,5 +1,5 @@
 
-# 🔥Quick start (for masters):
+## 🔥Quick start (for masters):
 
 <br></br>
 
@@ -79,7 +79,7 @@ cp -f ~/android-sdk/SDK35/aapt2_35.0.0/aapt2 ~/.androidide/
 <br></br>
 
 
-# 🔥Details (for beginners):
+## 🔥Details (for beginners):
 
 <br></br>
 
