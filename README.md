@@ -3,9 +3,9 @@
 
 <br></br>
 
-## Set SDK to 35
+# ------- 🏅Set SDK to 35 (start) ------
 
-## 1. Download SDK35 files:
+## 1. Download files for SDK 35:
 
 - Download `build-tools-35.0.0-fixed.tar.xz` and `platforms-35-fixed.tar.xz` 
 from [here](https://github.com/kkgit2008/AndroIDE/releases/tag/SDK)
@@ -41,27 +41,36 @@ cp -f ~/android-sdk/SDK35/aapt2_35.0.0/aapt2 ~/.androidide/
 
 ```
 
+# ------- 🏅Set SDK to 35 (end) ------
 
 
 
 
-# Set SDK back:
+# ------- 🥎Set SDK back (start) ------
+
 ```
 
 cp -f ~/android-sdk/SDK35/aapt2_34.0.4/aapt2 ~/.androidide/
 
 ```
 
+# ------- 🥎Set SDK back (end) ------
 
 
 
 
-# Set SDK to 35 again (and again):
+
+
+# ------- 🧧Set SDK to 35 again (start) ------
+
 ```
 
 cp -f ~/android-sdk/SDK35/aapt2_35.0.0/aapt2 ~/.androidide/
 
 ```
+
+# ------- 🧧Set SDK to 35 again (end) ------
+
 
 
 
