@@ -3,7 +3,7 @@
 
 <br></br>
 
-# ------- 🏅Set SDK to 35 (start) ------
+## --- 🏅Set SDK to 35 (start) ---
 
 ## 1. Download files for SDK 35:
 
@@ -41,12 +41,12 @@ cp -f ~/android-sdk/SDK35/aapt2_35.0.0/aapt2 ~/.androidide/
 
 ```
 
-# ------- 🏅Set SDK to 35 (end) ------
+## --- 🏅Set SDK to 35 (end) ---
 
 
 
 
-# ------- 🥎Set SDK back (start) ------
+## --- 🥎Set SDK back (start) ---
 
 ```
 
@@ -54,14 +54,14 @@ cp -f ~/android-sdk/SDK35/aapt2_34.0.4/aapt2 ~/.androidide/
 
 ```
 
-# ------- 🥎Set SDK back (end) ------
+## --- 🥎Set SDK back (end) ---
 
 
 
 
 
 
-# ------- 🧧Set SDK to 35 again (start) ------
+## --- 🧧Set SDK to 35 again (start) ---
 
 ```
 
@@ -69,7 +69,7 @@ cp -f ~/android-sdk/SDK35/aapt2_35.0.0/aapt2 ~/.androidide/
 
 ```
 
-# ------- 🧧Set SDK to 35 again (end) ------
+## --- 🧧Set SDK to 35 again (end) ---
 
 
 
