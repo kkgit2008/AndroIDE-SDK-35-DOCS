@@ -1,3 +1,79 @@
+
+# 🔥Quick start
+
+<br></br>
+
+
+
+##  🏅Set SDK to 35:
+
+### 1. Download files for SDK 35:
+
+- Download `build-tools-35.0.0-fixed.tar.xz` and `platforms-35-fixed.tar.xz` 
+from [here](https://github.com/kkgit2008/AndroIDE/releases/tag/SDK)
+
+
+### 2. Copy these command lines and paste in terminal of AndroIDE:
+```
+
+#Extract SDK35 files
+mkdir -p ~/android-sdk/SDK35
+cd ~/android-sdk/SDK35
+ls
+tar xvJf /storage/emulated/0/AndroidIDEProjects/platforms-35-fixed.tar.xz
+tar xvJf /storage/emulated/0/AndroidIDEProjects/build-tools-35.0.0-fixed.tar.xz
+#Backup aapt2 file
+mkdir -p aapt2_34.0.4 aapt2_35.0.0
+mv -i ~/.androidide/aapt2 aapt2_34.0.4/
+chmod +x build-tools/35.0.0/aapt2
+cp -f build-tools/35.0.0/aapt2 aapt2_35.0.0/
+#Replace/move build-tools-35.0.0
+rm -rf ~/android-sdk/build-tools/35.0.0/
+mv -i build-tools/35.0.0/ ~/android-sdk/build-tools/
+#Replace/move platforms-35
+rm -rf ~/android-sdk/platforms/android-35/
+mv -i platforms/android-35/ ~/android-sdk/platforms/
+#Clear Temp files
+rm -rf build-tools/
+rm -rf platforms/
+ls -aR
+#Replace aapt2 file
+cp -f ~/android-sdk/SDK35/aapt2_35.0.0/aapt2 ~/.androidide/
+
+```
+
+
+
+##  🧧Set SDK back:
+
+```
+
+cp -f ~/android-sdk/SDK35/aapt2_34.0.4/aapt2 ~/.androidide/
+
+```
+
+
+
+##  🥎Set SDK to 35 again:
+
+```
+
+cp -f ~/android-sdk/SDK35/aapt2_35.0.0/aapt2 ~/.androidide/
+
+```
+
+
+
+<br></br>
+<br></br>
+<br></br>
+
+
+# 🔥Details
+
+<br></br>
+
+
 # How to Compile an APK in AndroidIDE Using SDK 35 (35.0.0)
 
 This guide will walk you through the process of compiling an APK in AndroidIDE using SDK version 35 (35.0.0). Follow each step carefully to ensure a successful build.
