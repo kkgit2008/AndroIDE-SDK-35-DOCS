@@ -1,4 +1,3 @@
-
 # 🔥Quick start
 
 <br></br>
@@ -7,21 +6,29 @@
 
 ##  🏅Set SDK to 35:
 
-### 1. Download files for SDK 35:
 
-- Download `build-tools-35.0.0-fixed.tar.xz` and `platforms-35-fixed.tar.xz` 
-from [here](https://github.com/kkgit2008/AndroIDE/releases/tag/SDK)
+### 1. Download files for SDK 35:
+```
+
+mkdir -p ~/android-sdk/SDK35
+ls -R
+cd ~/android-sdk/SDK35
+curl -LO https://github.com/kkgit2008/AndroIDE/releases/download/SDK/build-tools-35.0.0-fixed.tar.xz
+curl -LO https://github.com/kkgit2008/AndroIDE/releases/download/SDK/platforms-35-fixed.tar.xz
+echo " " && ls -R
+
+```
 
 
 ### 2. Copy these command lines and paste in terminal of AndroIDE:
 ```
 
 #Extract SDK35 files
-mkdir -p ~/android-sdk/SDK35
-cd ~/android-sdk/SDK35
-ls
-tar xvJf /storage/emulated/0/AndroidIDEProjects/platforms-35-fixed.tar.xz
-tar xvJf /storage/emulated/0/AndroidIDEProjects/build-tools-35.0.0-fixed.tar.xz
+#mkdir -p ~/android-sdk/SDK35
+#cd ~/android-sdk/SDK35
+#ls -R
+tar xvJf platforms-35-fixed.tar.xz  
+tar xvJf build-tools-35.0.0-fixed.tar.xz
 #Backup aapt2 file
 mkdir -p aapt2_34.0.4 aapt2_35.0.0
 mv -i ~/.androidide/aapt2 aapt2_34.0.4/
@@ -34,6 +41,8 @@ mv -i build-tools/35.0.0/ ~/android-sdk/build-tools/
 rm -rf ~/android-sdk/platforms/android-35/
 mv -i platforms/android-35/ ~/android-sdk/platforms/
 #Clear Temp files
+rm -rf ./build-tools-35.0.0-fixed.tar.xz
+rm -rf ./platforms-35-fixed.tar.xz  
 rm -rf build-tools/
 rm -rf platforms/
 ls -aR
