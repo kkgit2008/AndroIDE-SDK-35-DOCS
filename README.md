@@ -6,7 +6,7 @@
 
 ##  🏅Set SDK to 35:
 
-- Copy these command lines and paste in terminal of AndroIDE:
+- Copy these command lines and paste in terminal of AndroIDE, then click 'ENTER':
 
 ```
 
