@@ -12,7 +12,7 @@
 
 # Download files for SDK 35
 mkdir -p ~/android-sdk/SDK35
-ls -R && cd ~/android-sdk/SDK35
+cd ~/android-sdk/SDK35 && ls -R
 curl -LO https://github.com/kkgit2008/AndroIDE/releases/download/SDK/build-tools-35.0.0-fixed.tar.xz
 curl -LO https://github.com/kkgit2008/AndroIDE/releases/download/SDK/platforms-35-fixed.tar.xz
 echo " " && ls -R
