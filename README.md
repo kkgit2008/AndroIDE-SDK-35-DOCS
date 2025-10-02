@@ -37,8 +37,8 @@ rm -rf ~/android-sdk/platforms/android-35/
 mv -i platforms/android-35/ ~/android-sdk/platforms/
 
 # Clear Temp files
-rm -rf ./build-tools-35.0.0-fixed.tar.xz
-rm -rf ./platforms-35-fixed.tar.xz  
+rm -rf build-tools-35.0.0-fixed.tar.xz
+rm -rf platforms-35-fixed.tar.xz  
 rm -rf build-tools/
 rm -rf platforms/
 ls -aR
