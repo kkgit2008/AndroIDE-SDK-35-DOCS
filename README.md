@@ -12,37 +12,24 @@
 
 # Download files for SDK 35
 mkdir -p ~/android-sdk/SDK35
-ls -R
-cd ~/android-sdk/SDK35
+ls -R && cd ~/android-sdk/SDK35
 curl -LO https://github.com/kkgit2008/AndroIDE/releases/download/SDK/build-tools-35.0.0-fixed.tar.xz
 curl -LO https://github.com/kkgit2008/AndroIDE/releases/download/SDK/platforms-35-fixed.tar.xz
 echo " " && ls -R
-
 # Extract SDK35 files
-tar xvJf platforms-35-fixed.tar.xz  
-tar xvJf build-tools-35.0.0-fixed.tar.xz
-
+tar xvJf platforms-35-fixed.tar.xz && tar xvJf build-tools-35.0.0-fixed.tar.xz
 # Backup aapt2 file
 mkdir -p aapt2_34.0.4 aapt2_35.0.0
 mv -i ~/.androidide/aapt2 aapt2_34.0.4/
 chmod +x build-tools/35.0.0/aapt2
 cp -f build-tools/35.0.0/aapt2 aapt2_35.0.0/
-
 # Replace/move build-tools-35.0.0
-rm -rf ~/android-sdk/build-tools/35.0.0/
-mv -i build-tools/35.0.0/ ~/android-sdk/build-tools/
-
+rm -rf ~/android-sdk/build-tools/35.0.0/ && mv -i build-tools/35.0.0/ ~/android-sdk/build-tools/
 # Replace/move platforms-35
-rm -rf ~/android-sdk/platforms/android-35/
-mv -i platforms/android-35/ ~/android-sdk/platforms/
-
+rm -rf ~/android-sdk/platforms/android-35/ && mv -i platforms/android-35/ ~/android-sdk/platforms/
 # Clear Temp files
-rm -rf build-tools-35.0.0-fixed.tar.xz
-rm -rf platforms-35-fixed.tar.xz  
-rm -rf build-tools/
-rm -rf platforms/
+rm -rf build-tools-35.0.0-fixed.tar.xz && rm -rf platforms-35-fixed.tar.xz && rm -rf build-tools/ && rm -rf platforms/
 ls -aR
-
 # Replace aapt2 file
 cp -f ~/android-sdk/SDK35/aapt2_35.0.0/aapt2 ~/.androidide/
 
